@@ -1,6 +1,6 @@
 # Express Install Profile
 
-This is the working version porting https://www.drupal.org/project/express to Backdrop.
+This is the working version porting the [Express Install Profile](https://www.drupal.org/project/express) used by the University of Colorado to Backdrop.
 
 This is an install profile that needs to be placed in /core/profiles to be discovered during the install process.
 
@@ -11,7 +11,8 @@ composer install
 ddev config 
 ```
 Use the defults when prompted by ddev.
-[Follow the steps to add Backdrop's version of Drush to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)]
+
+[Follow the steps to add Backdrop's version of Drush to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)
 ```
 ddev start
 cd core/profiles
