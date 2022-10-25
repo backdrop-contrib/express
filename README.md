@@ -1,5 +1,6 @@
-# express
-WIP porting https://www.drupal.org/project/express
+# Express Install Profile
+
+This is the working version porting https://www.drupal.org/project/express to Backdrop.
 
 This is an install profile that needs to be placed in /core/profiles to be discovered during the install process.
 
@@ -7,8 +8,11 @@ This is an install profile that needs to be placed in /core/profiles to be disco
 composer create-project -s dev backdrop/backdrop
 cd backdrop
 composer install
-ddev config [USE DEFAULTS]
-[[ADD BEE to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)]
+ddev config 
+```
+Use the defults when prompted by ddev.
+[Follow the steps to add Backdrop's version of Drush to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)]
+```
 ddev start
 cd core/profiles
 git clone git@github.com:backdrop-contrib/express.git
