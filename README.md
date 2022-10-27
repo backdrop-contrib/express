@@ -15,7 +15,8 @@ Use the defults when prompted by ddev.
 [Follow the steps to add Backdrop's version of Drush to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)
 ```
 ddev start
-cd core/profiles
+mkdir profiles
+cd profiles
 git clone git@github.com:backdrop-contrib/express.git
 ```
 
