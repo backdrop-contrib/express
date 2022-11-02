@@ -2,7 +2,7 @@
 
 This is the working version porting the [Express Install Profile](https://www.drupal.org/project/express) used by the University of Colorado to Backdrop.
 
-This is an install profile that needs to be placed in /core/profiles to be discovered during the install process.
+This is an install profile that needs to be placed in /profiles to be discovered during the install process.
 
 ```
 composer create-project -s dev backdrop/backdrop
