@@ -12,7 +12,7 @@ ddev config
 ```
 Use the defults when prompted by ddev.
 
-[Follow the steps to add Backdrop's version of Drush to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)
+[Follow the steps to add Bee (Backdrop's version of Drush) to DDEV](https://github.com/backdrop-contrib/bee/wiki/Using-bee-with-DDEV)
 ```
 ddev start
 mkdir profiles
