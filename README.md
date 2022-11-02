@@ -20,6 +20,6 @@ cd profiles
 git clone git@github.com:backdrop-contrib/express.git
 ```
 
-Until we have scripts to add the Backdrop module dependencies declared the express.info, those modules should be added using `bee dl`. 
+Until we have scripts to add the Backdrop module dependencies declared the express.info, those modules should be added using `ddev bee dl`. 
 Unlike the Drupal 7 Install Profile where the dependencies are added to packaged download with `drush make`, Backdrop requires the
 dependencies to be added with an additional step before the install profile is used.
